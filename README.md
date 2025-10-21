@@ -1,7 +1,6 @@
-# Enumeration-BruteForce
 
 
-# Enumeration & Brute Force 
+# Enumeration & Brute Force — Guide & Lab
 
 > A concise guide and hands-on lab covering **authentication enumeration** and **brute force** techniques for web applications. Includes theory, practical examples, automation scripts, and TryHackMe-style lab walk-throughs.
 
@@ -208,7 +207,7 @@ If the application echoes the regex or an explicit policy, you can learn complex
 ```php
 <?php
 $password = $_POST['pass'];
-$pattern = '/^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).+$/';
+$pattern = '/^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).+$/'';
 
 if (preg_match($pattern, $password)) {
     echo "Password is valid.";
@@ -245,4 +244,17 @@ If the app returns the regex or a detailed error message, an attacker can craft 
 
 * **What is the flag from the Basic Auth lab?**
   **Answer:** `THM{b4$$1C_AuTTHHH}`
+
+</details>
+
+--- 
+
+
+## Contributing / License
+
+* Contributions welcome via PRs. Please keep examples ethical and for educational use only.
+* Suggested license: MIT.
+
+--- 
+
 
