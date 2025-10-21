@@ -1,15 +1,7 @@
 # Enumeration-BruteForce
 
 
-Nice — this is a great draft. I took your content, cleaned it up, reorganized it for a professional GitHub README, and added runnable examples, a repo layout, and a short `CONTRIBUTING` note so you can publish it quickly.
-
-Below is a ready-to-copy `README.md` (Markdown) you can paste into your GitHub repo. I also included suggested filenames, a simple `git` commit message, and a small `.gitignore`. If you want, I can also generate the files for you (README + `script.py`) in a ZIP that you can upload — tell me and I’ll prepare them.
-
----
-
-# README.md (ready for GitHub)
-
-# Enumeration & Brute Force — Guide & Lab
+# Enumeration & Brute Force 
 
 > A concise guide and hands-on lab covering **authentication enumeration** and **brute force** techniques for web applications. Includes theory, practical examples, automation scripts, and TryHackMe-style lab walk-throughs.
 
